@@ -7,14 +7,10 @@ $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 $ mkdir ICS
 $ cd ICS
-$ repo init -u https://github.com/MoltenMotherBoard/ics-manifest
+$ repo init -u https://github.com/MoltenMotherBoard/manifest -b aosp-ics
 $ repo sync
 $ . build/envsetup.sh
 $ lunch /* Choose your build */
-
-Now replace in framework-base those folders with CyanogenMod ones:
-  ICS/frameworks/base/libs/hwui;
-  ICS/frameworks/base/opengl;
 
 Now in terminal:
 $ make
