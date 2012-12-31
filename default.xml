@@ -26,7 +26,7 @@
   <project path="cts" name="platform/cts" />
   <!-- <project path="dalvik" name="platform/dalvik" remote="aosp" /> -->
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="gh" revision="ics-release" />
-  <project path="development" name="platform/development" />
+  <!-- <project path="development" name="platform/development" /> -->
   <project path="device/common" name="device/common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
