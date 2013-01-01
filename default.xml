@@ -13,7 +13,7 @@
   <!-- <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> -->
-  <project path="build" name="CyanogenMod/android_build" remote="gh" revision="ics-release" >
+  <project path="build" name="CyanogenMod/android_build" remote="gh" revision="ics" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -25,7 +25,7 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="ics" />
   <project path="cts" name="platform/cts" />
   <!-- <project path="dalvik" name="platform/dalvik" remote="aosp" /> -->
-  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="gh" revision="ics-release" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="gh" revision="ics" />
   <!-- <project path="development" name="platform/development" /> -->
   <project path="device/common" name="device/common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -144,7 +144,7 @@
   <project path="external/webkit" name="MoltenMotherBoard/android_external_webkit" remote="gh" revision="aosp-ics" />
   <project path="external/webp" name="platform/external/webp" />
   <!-- <project path="external/webrtc" name="platform/external/webrtc" /> -->
-  <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" remote="gh" revision="ics-release" />
+  <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" remote="gh" revision="ics" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <!-- <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" /> -->
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="gh" revision="ics" />
@@ -244,20 +244,20 @@
   <project path="kernel/samsung/msm7x27" name="Jellaxy/android_kernel_samsung_msm7x27" remote="gh" revision="ics" />
   <project path="vendor/samsung" name="MoltenMotherBoard/proprietary_vendor_samsung" remote="gh" revision="aosp-ics" />
   <!-- Hardware things -->
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="gh" revision="ics-release" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="gh" revision="ics-release" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="gh" revision="ics" />
   <project path="hardware/libhardware_legacy" name="Jellaxy/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="gh" revision="ics" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="gh" revision="ics" />
   <project path="hardware/qcom/display" name="Jellaxy/android_hardware_qcom_display" remote="gh" revision="ics" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="ics-release" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="ics-release" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="ics-release" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="ics" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="ics" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="ics" />
   <!-- <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" /> -->
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="gh" revision="ics-release" />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="gh" revision="ics" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics-release" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
   
 </manifest>
