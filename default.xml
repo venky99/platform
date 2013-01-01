@@ -231,7 +231,7 @@
   <!-- <project path="system/core" name="platform/system/core" /> -->
   <project path="system/core" name="CyanogenMod/android_system_core" remote="gh" revision="ics" />
   <!-- <project path="system/extras" name="platform/system/extras" /> -->
-  <project path="system/extras" name="MoltenMotherBoard/system_extras" remote="gh" revision="aosp-ics" /> 
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" /> 
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
