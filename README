@@ -7,7 +7,7 @@ $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 $ mkdir CM7
 $ cd CM7
-$ repo init -u https://github.com/MoltenMotherBoard/manifest -b cm7
+$ repo init -u https://github.com/ItachiSan/manifest -b cm7
 $ repo sync
 $ . build/envsetup.sh
 $ lunch /* Choose your build */
