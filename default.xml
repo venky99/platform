@@ -253,6 +253,6 @@
   <project path="vendor/cyanogen" name="ItachiSan/android_vendor_cyanogen" />
   <project name="ItachiSan/gio_device_config" remote="private" path="device/samsung/gio" revision="master" />
   
-  <project path="android" name="ItachiSan/manifest" revision="cm7" />
+  <project path="android" remote="private" name="ItachiSan/manifest" revision="cm7" />
 
 </manifest>
