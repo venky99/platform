@@ -7,7 +7,7 @@ $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 $ mkdir ICS
 $ cd ICS
-$ repo init -u https://github.com/ItachiSan/manifest -b aosp-ics
+$ repo init -u https://github.com/MoltenMotherBoard/manifest -b aosp-ics
 $ repo sync
 $ . build/envsetup.sh
 $ lunch /* Choose your build */
