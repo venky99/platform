@@ -248,11 +248,10 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <!-- My stuff  -->
+  <!-- MMB Stuff  -->
 
-  <project path="vendor/cyanogen" name="ItachiSan/android_vendor_cyanogen" />
-  <project name="ItachiSan/gio_device_config" remote="private" path="device/samsung/gio" revision="master" />
-  
-  <project path="android" remote="private" name="ItachiSan/manifest" revision="cm7" />
+  <project path="vendor/cyanogen" name="MoltenMotherBoard/android_vendor_cyanogen" />
+  <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" remote="private" revision="cm7" />
+  <project path="android" name="MoltenMotherBoard/manifest" remote="private" revision="cm7" />
 
 </manifest>
