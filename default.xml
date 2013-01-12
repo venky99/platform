@@ -252,7 +252,7 @@
   <project path="hardware/libhardware_legacy" name="Jellaxy/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="gh" revision="ics" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="gh" revision="ics" />
-  <project path="hardware/qcom/display" name="Jellaxy/android_hardware_qcom_display" remote="gh" revision="ics" />
+  <project path="hardware/qcom/display" name="MoltenMotherBoard/android_hardware_qcom_display" remote="gh" revision="aosp-ics" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="ics" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="ics" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="ics" />
