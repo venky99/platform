@@ -13,7 +13,7 @@
   <!-- <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> -->
-  <project path="build" name="CyanogenMod/android_build" remote="gh" revision="ics" >
+  <project path="build" name="MoltenMotherBoard/android_build" remote="gh" revision="aosp-ics" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
