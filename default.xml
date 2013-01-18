@@ -239,7 +239,8 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
-  <project path="system/vold" name="platform/system/vold" />
+  <!--project path="system/vold" name="platform/system/vold" -->
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
 
   <!-- Galaxy GIO things -->
   <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" remote="gh" revision="aosp-ics" />
