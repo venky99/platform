@@ -247,7 +247,7 @@
 
   <!-- MMB Stuff  -->
   <project path="vendor/cyanogen" name="MoltenMotherBoard/android_vendor_cyanogen" />
-  <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" remote="private" revision="cm7" />
-  <project path="android" name="MoltenMotherBoard/manifest" remote="private" revision="cm7" />
+  <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" revision="cm7" />
+  <project path="android" name="MoltenMotherBoard/manifest" revision="cm7" />
 
 </manifest>
