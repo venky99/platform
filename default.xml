@@ -270,5 +270,8 @@
   <project path="kernel/samsung/msm7x27" name="androidarmv6/android_kernel_samsung_msm7x27" remote="gh" revision="cm-10.1" />
   <!-- project path="vendor/samsung" name="MoltenMotherBoard/proprietary_vendor_samsung" remote="gh" revision="aosp-ics" /-->
   <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="gh" revision="cm-10.1" />
-
+  
+  <!-- Some special vendors -->
+  <project path="vendor/mmb" name="MoltenMotherBoard/proprietary_vendor_mmb" remote="gh" revision="aosp-ics" />
+  <project path="vendor/google" name="MoltenMotherBoard/proprietary_vendor_google" remote="gh" revision="aosp-ics" />
 </manifest>
