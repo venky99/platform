@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" remote="gh" >
+  <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="gh" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
