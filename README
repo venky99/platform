@@ -1,19 +1,16 @@
 That's Galaxy GIO manifest for AOSP-ICS:
 
 For compiling, in terminal:
-
-[$]
-
-mkdir ~/bin
-PATH=~/bin:$PATH
-curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
-chmod a+x ~/bin/repo
-mkdir GB
-cd GB
-repo init -u https://github.com/MoltenMotherBoard/manifest -b aosp-gb
-repo sync
-. build/envsetup.sh
-lunch /* Choose your build */
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
+$ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+$ mkdir GB
+$ cd GB
+$ repo init -u https://github.com/MoltenMotherBoard/manifest -b aosp-gb
+$ repo sync
+$ . build/envsetup.sh
+$ lunch /* Choose your build */
 
 Now in terminal:
 $ make otapackage
