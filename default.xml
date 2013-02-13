@@ -107,22 +107,22 @@
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" revision="gh" />
-  <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" revision="gh" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" revision="gh" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" revision="gh" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" revision="gh" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="gh" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" revision="gh" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" revision="gh" />
-  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" revision="gh" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" revision="gh" />
-  <project path="hardware/ti/omap3-compat" name="CyanogenMod/android_hardware_ti_omap3-compat" revision="gh" />
-  <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" revision="gh" />
-  <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" revision="gh" />
-  <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" revision="gh" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="gh" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="gh" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" revision="gingerbread" remote="gh" />
+  <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" revision="gingerbread" revision="gh" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" revision="gingerbread" remote="gh" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" revision="gingerbread" remote="gh" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" revision="gingerbread" remote="gh" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="gingerbread" remote="gh" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" revision="gingerbread" remote="gh" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" revision="gingerbread" remote="gh" />
+  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" revision="gingerbread" remote="gh" />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" revision="gingerbread" remote="gh" />
+  <project path="hardware/ti/omap3-compat" name="CyanogenMod/android_hardware_ti_omap3-compat" revision="gingerbread" remote="gh" />
+  <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" revision="gingerbread" remote="gh" />
+  <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" revision="gingerbread" remote="gh" />
+  <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" revision="gingerbread" remote="gh" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="gingerbread" remote="gh" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="gingerbread" remote="gh" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
