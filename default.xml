@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
   <remote name="gh"
 	   fetch="https://github.com/" />
   <default revision="refs/tags/android-2.3.7_r1"
