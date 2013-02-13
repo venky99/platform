@@ -5,9 +5,9 @@ $ mkdir ~/bin
 $ PATH=~/bin:$PATH
 $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
-$ mkdir ICS
-$ cd ICS
-$ repo init -u https://github.com/MoltenMotherBoard/manifest -b aosp-ics
+$ mkdir GB
+$ cd GBi
+$ repo init -u https://github.com/MoltenMotherBoard/manifest -b aosp-gb
 $ repo sync
 $ . build/envsetup.sh
 $ lunch /* Choose your build */
