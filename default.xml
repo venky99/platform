@@ -183,6 +183,6 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <!-- MMB Stuff --> 
-  <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" revision="cm7" remote="gh" />
+  <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" revision="aosp-gb" remote="gh" />
 
 </manifest>
