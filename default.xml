@@ -13,7 +13,7 @@
 
   <project path="android" name="MoltenMotherBoard/manifest" revision="aosp-gb" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
