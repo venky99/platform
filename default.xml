@@ -25,6 +25,8 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="gh" revision="ics" />
   <project path="development" name="CyanogenMod/android_development" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" />
+  <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" remote="gh" revision="aosp-ics" />
+  <project path="device/samsung/msm7x27-common" name="MoltenMotherBoard/android_device_samsung_msm7x27-common" remote="gh" revision="aosp-ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -157,6 +159,21 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="gh" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="Jellaxy/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="gh" revision="ics" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="gh" revision="ics" />
+  <project path="hardware/qcom/display" name="MoltenMotherBoard/android_hardware_qcom_display" remote="gh" revision="aosp-ics" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="ics" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="ics" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="ics" />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="gh" revision="ics" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
+  <project path="kernel/samsung/msm7x27" name="Jellaxy/android_kernel_samsung_msm7x27" remote="gh" revision="ics" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -224,29 +241,9 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
-
-  <!-- Hardware things -->
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="gh" revision="ics" />
-  <project path="hardware/libhardware_legacy" name="Jellaxy/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="gh" revision="ics" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="gh" revision="ics" />
-  <project path="hardware/qcom/display" name="MoltenMotherBoard/android_hardware_qcom_display" remote="gh" revision="aosp-ics" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="ics" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="ics" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="ics" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="gh" revision="ics" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
-  <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
-  <!-- Galaxy GIO things -->
-  <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" remote="gh" revision="aosp-ics" />
-  <project path="device/samsung/msm7x27-common" name="MoltenMotherBoard/android_device_samsung_msm7x27-common" remote="gh" revision="aosp-ics" />
-  <project path="kernel/samsung/msm7x27" name="Jellaxy/android_kernel_samsung_msm7x27" remote="gh" revision="ics" />
-  <project path="vendor/samsung" name="MoltenMotherBoard/proprietary_vendor_samsung" remote="gh" revision="aosp-ics" />
-  <!-- Some special vendors -->
-  <project path="vendor/mmb" name="MoltenMotherBoard/proprietary_vendor_mmb" remote="gh" revision="aosp-ics" />
   <project path="vendor/google" name="MoltenMotherBoard/proprietary_vendor_google" remote="gh" revision="aosp-ics" />
+  <project path="vendor/mmb" name="MoltenMotherBoard/proprietary_vendor_mmb" remote="gh" revision="aosp-ics" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
+  <project path="vendor/samsung" name="MoltenMotherBoard/proprietary_vendor_samsung" remote="gh" revision="aosp-ics" />
+
 </manifest>
