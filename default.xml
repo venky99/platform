@@ -5,31 +5,24 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="gh"
            fetch="https://github.com/" />
-    <!-- < fetch="git://github.com/" /> -->
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="4" />
 
     
   <project path="android" name="MoltenMotherBoard/manifest" remote="gh" revision="aosp-ics" />
-
-  <!-- <project path="build" name="platform/build">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project> -->
+  
+  
   <project path="build" name="MoltenMotherBoard/android_build" remote="gh" revision="aosp-ics" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <!-- <project path="bionic" name="platform/bionic" remote="aosp" /> -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <!-- <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" /> -->
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="ics" />
   <project path="cts" name="platform/cts" />
-  <!-- <project path="dalvik" name="platform/dalvik" remote="aosp" /> -->
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="gh" revision="ics" />
-  <!-- <project path="development" name="platform/development" /> -->
   <project path="development" name="CyanogenMod/android_development" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -114,7 +107,6 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
-  <!-- <project path="external/openssl" name="platform/external/openssl" remote="aosp" /> -->
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="gh" revision="ics" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pcre" name="platform/external/pcre" />
@@ -128,7 +120,6 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <!-- <project path="external/skia" name="platform/external/skia" /> -->
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="gh" revision="ics" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -143,28 +134,20 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <!-- <project path="external/v8" name="platform/external/v8" /> -->
   <project path="external/v8" name="CyanogenMod/android_external_v8" remote="gh" revision="ics" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <!-- <project path="external/webkit" name="platform/external/webkit" /> -->
   <project path="external/webkit" name="MoltenMotherBoard/android_external_webkit" remote="gh" revision="aosp-ics" />
   <project path="external/webp" name="platform/external/webp" />
-  <!-- <project path="external/webrtc" name="platform/external/webrtc" /> -->
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" remote="gh" revision="ics" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <!-- <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" /> -->
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="gh" revision="ics" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <!-- <project path="external/yaffs2" name="platform/external/yaffs2" /> -->
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="gh" revision="ics" />
-  <!-- <project path="external/zlib" name="platform/external/zlib" /> -->
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="gh" revision="ics" />
-  <!-- <project path="frameworks/base" name="platform/frameworks/base" /> -->
   <project path="frameworks/base" name="MoltenMotherBoard/android_framework_base" remote="gh" revision="aosp-ics" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <!-- <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" /> -->
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
@@ -193,7 +176,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <!-- project path="packages/apps/Mms" name="platform/packages/apps/Mms" -->
   <project path="packages/apps/Mms" name="MoltenMotherBoard/android_packages_apps_Mms" remote="gh" revision="aosp-ics" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
@@ -236,14 +218,11 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <!-- <project path="system/core" name="platform/system/core" /> -->
   <project path="system/core" name="CyanogenMod/android_system_core" remote="gh" revision="ics" />
-  <!-- <project path="system/extras" name="platform/system/extras" /> -->
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" /> 
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
-  <!--project path="system/vold" name="platform/system/vold" -->
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
 
   <!-- Hardware things -->
@@ -257,7 +236,6 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="ics" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="ics" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="ics" />
-  <!-- <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" /> -->
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="gh" revision="ics" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
