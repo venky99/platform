@@ -18,12 +18,12 @@
   <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="CyanogenMod/android_bionic" revision="gingerbread" remote="gh" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" revision="gingerbread" remote="gh" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="CyanogenMod/android_device_common" revision="gingerbread" remote="gh" />
   <project path="device/sample" name="device/sample" />
