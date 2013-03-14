@@ -11,8 +11,7 @@
 
     
   <project path="android" name="MoltenMotherBoard/manifest" remote="gh" revision="aosp-ics" />
-  
-  
+    
   <project path="build" name="MoltenMotherBoard/android_build" remote="gh" revision="aosp-ics" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -37,9 +36,9 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/platform/external/bluetooth/bluez"remote="gh" revision="ics" />
+  <project path="external/bluetooth/glib" name="CyanogenMod/platform/external/bluetooth/glib" remote="gh" revision="ics"/>
+  <project path="external/bluetooth/hcidump" name="CyanogenMod/platform/external/bluetooth/hcidump" remote="gh" revision="ics" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
@@ -234,7 +233,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="CyanogenMod/platform/system/bluetooth" remote="gh" revision="ics"/>
   <project path="system/core" name="CyanogenMod/android_system_core" remote="gh" revision="ics" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" /> 
   <project path="system/media" name="platform/system/media" />
