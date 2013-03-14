@@ -36,7 +36,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="CyanogenMod/platform/external/bluetooth/bluez"remote="gh" revision="ics" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/platform/external/bluetooth/bluez" remote="gh" revision="ics" />
   <project path="external/bluetooth/glib" name="CyanogenMod/platform/external/bluetooth/glib" remote="gh" revision="ics"/>
   <project path="external/bluetooth/hcidump" name="CyanogenMod/platform/external/bluetooth/hcidump" remote="gh" revision="ics" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
