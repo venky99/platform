@@ -46,7 +46,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
-  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dbus" name="CyanogenMod/android_external_dbus" remote="gh" revision="ics" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
