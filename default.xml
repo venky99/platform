@@ -143,7 +143,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" remote="gh" revision="ics" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="gh" revision="ics" />
-  <project path="external/wpa_supplicant_6" name="MoltenMotherBoard/android_external_wpa_supplicant_6" remote="gh" revision="aosp-ics" />
+  <project path="external/wpa_supplicant_6" name="MoltenMotherBoard/platform_external_wpa_supplicant_6" remote="gh" revision="aosp-ics" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="gh" revision="ics" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="gh" revision="ics" />
