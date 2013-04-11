@@ -10,7 +10,7 @@
            sync-j="4" />
 
     
-  <project path="android" name="MoltenMotherBoard/manifest" remote="gh" revision="aosp-ics" />
+  <project path="platform" name="MoltenMotherBoard/platform" remote="gh" revision="aosp-ics" />
     
   <project path="build" name="MoltenMotherBoard/android_build" remote="gh" revision="aosp-ics" >
     <copyfile src="core/root.mk" dest="Makefile" />
