@@ -26,7 +26,7 @@
   <project path="development" name="CyanogenMod/android_development" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="device/samsung/gio" name="MoltenMotherBoard/android_device_samsung_gio" remote="gh" revision="aosp-ics" />
-  <project path="device/samsung/msm7x27-common" name="MoltenMotherBoard/android_device_samsung_msm7x27-common" remote="gh" revision="aosp-ics" />
+  <project path="device/samsung/msm7x27-common" name="MoltenMotherBoard/platform_device_samsung_msm7x27-common" remote="gh" revision="aosp-ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
