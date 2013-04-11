@@ -12,7 +12,7 @@
            sync-j="4" />
 
 
-  <project path="android" name="MoltenMotherBoard/manifest" revision="aosp-gb" remote="gh" />
+  <project path="platform" name="MoltenMotherBoard/platform" revision="aosp-gb" remote="gh" />
 
 
   <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="gh">
