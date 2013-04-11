@@ -242,7 +242,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
   <project path="vendor/google" name="MoltenMotherBoard/platform_vendor_google" remote="gh" revision="aosp-ics" />
-  <project path="vendor/mmb" name="MoltenMotherBoard/proprietary_vendor_mmb" remote="gh" revision="aosp-ics" />
+  <project path="vendor/mmb" name="MoltenMotherBoard/platform_vendor_mmb" remote="gh" revision="aosp-ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
   <project path="vendor/samsung" name="MoltenMotherBoard/proprietary_vendor_samsung" remote="gh" revision="aosp-ics" />
 
