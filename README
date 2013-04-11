@@ -7,7 +7,7 @@ $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 $ mkdir GB
 $ cd GB
-$ repo init -u https://github.com/MoltenMotherBoard/manifest -b aosp-gb
+$ repo init -u https://github.com/MoltenMotherBoard/platform -b aosp-gb
 $ repo sync
 $ . build/envsetup.sh
 $ lunch /* Choose your build */
