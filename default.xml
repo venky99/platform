@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-  <remote  name="gh"
-           fetch="https://github.com/" />
-  <default revision="refs/tags/android-4.0.4_r2.1"
-           remote="aosp"
-           sync-j="4" />
+  <remote  name="aosp" fetch="https://android.googlesource.com/" />
+  <remote  name="gh" fetch="https://github.com/" />
+  <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4" />
 
     
   <project path="platform" name="MoltenMotherBoard/platform" remote="gh" revision="aosp-ics" />
