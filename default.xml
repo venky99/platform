@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="review.source.android.com" />
-  <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
-  <remote name="private" 
-          fetch="ssh://git@github.com/" />
-  <default revision="gingerbread"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
+  <remote  name="aosp" fetch="https://android.googlesource.com" review="review.source.android.com" />
+  <remote  name="github" fetch=".." review="review.cyanogenmod.org" />
+  <remote name="private"  fetch="ssh://git@github.com/" />
+  <default revision="gingerbread" remote="github" sync-c="true" sync-j="4" />
 
 
   <project path="platform" name="MoltenMotherBoard/platform" revision="cm7" />
