@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="review.source.android.com" />
-  <remote  name="gh"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.org" />
-  <default revision="refs/tags/android-2.3.7_r1"
-           remote="aosp"
-           sync-j="4" />
+  <remote  name="aosp" fetch="https://android.googlesource.com" review="review.source.android.com" />
+  <remote  name="gh" fetch="https://github.com/" review="review.cyanogenmod.org" />
+  <default revision="refs/tags/android-2.3.7_r1" remote="aosp" sync-j="4" />
 
 
   <project path="platform" name="MoltenMotherBoard/platform" revision="aosp-gb" remote="gh" />
