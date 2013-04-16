@@ -105,7 +105,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="MoltenMotherBoard/platform_frameworks_base" revision="aosp-gb" remote="gh" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" revision="gingerbread" remote="gh" />
