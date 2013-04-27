@@ -24,6 +24,7 @@
   <project path="device/samsung/gio" name="MoltenMotherBoard/platform_device_samsung_gio" revision="aosp-gb" remote="gh" />  
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="gh" revision="gingerbread" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -69,6 +70,7 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="gh" revision="gingerbread" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
