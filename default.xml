@@ -32,6 +32,7 @@
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" />
   <project path="device/samsung/c1-common" name="CyanogenMod/android_device_samsung_c1-common" />
   <project path="device/samsung/charge" name="CyanogenMod/android_device_samsung_charge" />
+  <project path="device/samsung/cori" name="MoltenMotherBoard/platform_device_samsung_cori" revision="cm7" />
   <project path="device/samsung/gio" name="MoltenMotherBoard/platform_device_samsung_gio" revision="cm7" />
   <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" />
   <project path="device/semc/msm7x27-common" name="CyanogenMod/android_device_semc_msm7x27-common" />
