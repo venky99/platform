@@ -9,7 +9,7 @@
   <project path="platform" name="MoltenMotherBoard/platform" revision="cm7" />
 
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="MoltenMotherBoard/android_build" revision="cm7">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -158,6 +158,7 @@
   <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/samsung/cori" name="vM00/xm01" revision="master" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" />
