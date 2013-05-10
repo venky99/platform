@@ -9,7 +9,7 @@
   <project path="platform" name="MoltenMotherBoard/platform" revision="cm7" />
 
 
-  <project path="build" name="MoltenMotherBoard/android_build" revision="cm7">
+  <project path="build" name="MoltenMotherBoard/android_build" revision="cm7" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" />
