@@ -95,7 +95,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="gh" revision="gingerbread" />
-  <project path="external/srec" name="platform/external/srec" />
+  <project path="external/srec" name="CyanogenMod/android_external_srec" remote="gh" revision="gingerbread" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
