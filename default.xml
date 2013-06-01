@@ -111,7 +111,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="gh" revision="gingerbread" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="gh" revision="gingerbread" />
-  <project path="frameworks/base" name="platform_frameworks_base" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" revision="gingerbread" remote="gh" />
