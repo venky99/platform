@@ -189,5 +189,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="gingerbread" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="gingerbread" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="vendor/google" name="MoltenMotherBoard/platform_vendor_google" remote="gh" revision="dd-lenny" />
+  <project path="vendor/mmb" name="MoltenMotherBoard/platform_vendor_mmb" remote="gh" revision="aosp-ics" />
 
 </manifest>
