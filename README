@@ -1,13 +1,13 @@
-That's Galaxy GIO manifest for AOSP-ICS:
+That's Galaxy GIO manifest for CM9:
 
 For compiling, in terminal:
 $ mkdir ~/bin
 $ PATH=~/bin:$PATH
 $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
-$ mkdir ICS
-$ cd ICS
-$ repo init -u https://github.com/MoltenMotherBoard/platform -b aosp-ics
+$ mkdir CM9
+$ cd CM9
+$ repo init -u https://github.com/MoltenMotherBoard/platform -b cm9
 $ repo sync
 $ . build/envsetup.sh
 $ lunch /* Choose your build */
