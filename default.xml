@@ -27,9 +27,9 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="gh" revision="gingerbread" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="gh" revision="gingerbread" />
+  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" remote="gh" revision="gingerbread"/>
+  <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" remote="gh" revision="gingerbread" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="gingerbread" />
@@ -182,7 +182,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="gh" revision="gingerbread"/>
   <project path="system/core" name="CyanogenMod/android_system_core" remote="gh" revision="gingerbread" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="gingerbread" /> 
   <project path="system/media" name="platform/system/media" />
