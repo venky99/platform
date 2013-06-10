@@ -11,7 +11,7 @@
   <project path="platform" name="MoltenMotherBoard/platform" remote="gh" revision="cm9" />
 
 
-  <project path="build" name="Jellaxy/android_build">
+  <project path="build" name="MoltenMotherBoard/platform_build" remote="gh" revision="cm9" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
