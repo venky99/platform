@@ -9,7 +9,7 @@
   <project path="platform" name="MoltenMotherBoard/platform" revision="aosp-gb" remote="gh" />
 
 
-  <project path="build" name="CyanogenMod/android_build" revision="gingerbread" remote="gh">
+  <project path="build" name="MoltenMotherBoard/platform_build" revision="aosp-gb" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" revision="gingerbread" remote="gh" />
