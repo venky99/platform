@@ -13,7 +13,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="AR6kSDK.3.1" name="MoltenMotherBoard/android_hardware_ar6k" remote="gh" revision="master" />
+  <project path="AR6kSDK.3.1" name="erikcas/android_hardware_ar6k" remote="gh" revision="master" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
