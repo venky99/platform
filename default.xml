@@ -23,8 +23,8 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/samsung/msm7x27-common" name="Jellaxy/android_device_samsung_msm7x27-common" remote="gh" revision="jellybean" />
-  <project path="device/samsung/gio" name="Jellaxy/android_device_samsung_gio" remote="gh" revision="jellybean" />
+  <project path="device/samsung/gio" name="MoltenMotherBoard/platform_device_samsung_gio" remote="gh" revision="cm10" />
+  <project path="device/samsung/msm7x27-common" name="MoltenMotherBoard/platform_device_samsung_msm7x27-common" remote="gh" revision="cm10" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
