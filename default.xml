@@ -11,7 +11,7 @@
   <project path="platform" name="MoltenMotherBoard/platform" remote="gh" revision="cm10" />
 
 
-  <project path="build" name="Jellaxy/android_build" remote="gh" revision="jellybean" >
+  <project path="build" name="MoltenMotherBoard/platform_build" remote="gh" revision="cm10" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
