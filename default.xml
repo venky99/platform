@@ -318,6 +318,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="Jellaxy/android_vendor_cm" remote="gh" revision="jellybean" />
+  <project path="vendor/google" name="MoltenMotherBoard/platform_vendor_google" remote="gh" revision="jellybean" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/samsung" name="MoltenMotherBoard/platform_vendor_samsung" remote="gh" revision="aosp-ics" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
