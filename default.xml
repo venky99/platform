@@ -76,16 +76,18 @@
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
-  <project path="external/mtpd" name="platform/external/mtpd" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="gh" revision="gingerbread" />
+  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="gh" revision="gingerbread" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="gh" revision="gingerbread" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="gh" revision="gingerbread" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ppp" name="platform/external/ppp" />
+  <project path="external/ppp" name="CyanogenMod/android_external_ppp" remote="gh" revision="gingerbread" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
