@@ -100,7 +100,7 @@
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
   <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" />
   <project path="external/libmtp" name="CyanogenMod/android_external_libmtp" />
-  <project path="external/libncurses" name="Jellaxy/android_external_libncurses" remote="gh" revision="jellybean" />
+  <project path="external/libncurses" name="MoltenMotherBoard/platform_external_libncurses" remote="gh" revision="cm10" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
