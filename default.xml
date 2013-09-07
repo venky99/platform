@@ -3,7 +3,7 @@
 
   <remote  name="aosp" fetch="https://android.googlesource.com" />
   <remote  name="github" fetch=".." review="review.cyanogenmod.org" />
-  <remote  name="gh" fetch="https://github.com/" />
+  <remote  name="gh" fetch="git://github.com/" />
   <remote  name="private" fetch="ssh://git@github.com" />
   <default revision="refs/heads/jellybean" remote="github" sync-c="true" sync-j="4" />
 
