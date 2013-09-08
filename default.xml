@@ -2,8 +2,8 @@
 <manifest>
 
   <remote  name="aosp" fetch="https://android.googlesource.com" />
-  <remote  name="github" fetch="git://github.com/" review="review.cyanogenmod.org" />
-  <remote  name="gh" fetch="git://github.com/" />
+  <remote  name="github" fetch="http://github.com/" review="review.cyanogenmod.org" />
+  <remote  name="gh" fetch="http://github.com/" />
   <remote  name="private" fetch="ssh://git@github.com" />
   <default revision="refs/heads/jellybean" remote="github" sync-c="true" sync-j="4" />
 
