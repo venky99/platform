@@ -170,7 +170,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
-  <project path="kernel/samsung/msm7x27" name="MoltenMotherBoard/platformkernel_samsung_msm7x27" remote="gh" revision="jellaxy" />
+  <project path="kernel/samsung/msm7x27" name="MoltenMotherBoard/platform_kernel_samsung_msm7x27" remote="gh" revision="jellaxy" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
