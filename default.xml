@@ -15,7 +15,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="bionic" name="Jellaxy/android_bionic" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -182,7 +182,7 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="kernel/samsung/msm7x27" name="Jellaxy/android_kernel_samsung_msm7x27" remote="gh" revision="ics" />
+  <project path="kernel/samsung/msm7x27" name="MoltenMotherBoard/platform_kernel_samsung_msm7x27" remote="gh" revision="jellaxy" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
@@ -255,7 +255,7 @@
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="Jellaxy/android_system_netd" />
+  <project path="system/netd" name="MoltenMotherBoard/platform_system_netd" remote="gh" revision="aosp-ics" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="MoltenMotherBoard/platform_vendor_cm" remote="gh" revision="cm9" />
