@@ -40,7 +40,7 @@
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7"/>
   <project name="device/common" path="device/common"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project path="device/lge/p880" name="CyanogenMod/android_device_lge_p880" remote="gh" revision="cm-10.1" />
+  <project path="device/lge/p880" name="CyanogenMod/android_device_lge_p880" remote="gh" revision="cm-10.2" />
   <project name="device/sample" path="device/sample"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
@@ -127,7 +127,7 @@
   <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
-  <project path="kernel/lge/p880" name="CyanogenMod/lge-kernel-p880" remote="gh" revision="cm-10.1" />
+  <project path="kernel/lge/p880" name="CyanogenMod/lge-kernel-p880" remote="gh" revision="cm-10.2" />
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/libnativehelper" path="libnativehelper"/>
   <project name="platform/ndk" path="ndk"/>
