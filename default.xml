@@ -22,7 +22,7 @@
   <project path="dalvik" name="MoltenMotherBoard/platform_dalvik" remote="gh" revision="aosp-ics" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/lge/p880" name="MoltenMotherBoard/android_device_lge_p880" remote="gh" revision="cm9" />
+  <project path="device/lge/p880" name="MoltenMotherBoard/platform_device_lge_p880" remote="gh" revision="cm9" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/samsung/gio" name="MoltenMotherBoard/platform_device_samsung_gio" remote="gh" revision="cm9" />
