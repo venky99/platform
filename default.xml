@@ -23,7 +23,6 @@
   <project path="development" name="CyanogenMod/android_development" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="device/huawei/u8815" name="MoltenMotherBoard/platform_device_huawei_u8815" remote="gh" revision="aosp-ics" />
-  <project path="device/lge/p880" name="CyanogenMod/android_device_lge_p880" remote="gh" revision="cm-10.1" />
   <project path="device/samsung/gio" name="MoltenMotherBoard/platform_device_samsung_gio" remote="gh" revision="aosp-ics" />
   <project path="device/samsung/msm7x27-common" name="MoltenMotherBoard/platform_device_samsung_msm7x27-common" remote="gh" revision="aosp-ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -173,7 +172,6 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
   <project path="kernel/huawei/u8815" name="Dazzozo/android_kernel_huawei_u8815" remote="gh" revision="ics" />
-  <project path="kernel/lge/p880" name="CyanogenMod/lge-kernel-p880" remote="gh" revision="cm-10.1" />
   <project path="kernel/samsung/msm7x27" name="MoltenMotherBoard/platform_kernel_samsung_msm7x27" remote="gh" revision="jellaxy" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
