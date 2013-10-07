@@ -53,6 +53,7 @@
   <project name="platform/external/checkpolicy" path="external/checkpolicy"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
+  <project path="external/doclava" name="CyanogenMod/android_external_doclava" remote="gh" revision="cm-10.2" />
   <project name="platform/external/dropbear" path="external/dropbear"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project name="platform/external/elfutils" path="external/elfutils"/>
