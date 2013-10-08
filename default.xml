@@ -84,6 +84,7 @@
   <project path="external/libselinux" name="platform/external/libselinux"/>
   <project path="external/libsepol" name="platform/external/libsepol"/>
   <project path="external/libvpx" name="platform/external/libvpx"/>
+  <project path="external/llvm" name="CyanogenMod/android_external_llvm" groups="pdk" remote="gh" revision="cm-10.2" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder"/>
   <project path="external/mksh" name="platform/external/mksh"/>
   <project path="external/netcat" name="platform/external/netcat"/>
