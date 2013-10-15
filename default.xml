@@ -89,6 +89,7 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/openssl" name="platform/external/openssl"/>
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="gh" revision="cm-10.2" />
   <project path="external/ping" name="platform/external/ping"/>
   <project path="external/ping6" name="platform/external/ping6"/>
   <project path="external/protobuf" name="platform/external/protobuf"/>
