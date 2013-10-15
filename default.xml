@@ -147,7 +147,7 @@
   <project path="system/media" name="platform/system/media"/>
   <project path="system/netd" name="platform/system/netd"/>
   <project path="system/security" name="platform/system/security"/>
-  <project path="system/vold" name="platform/system/vold"/>
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="gh" revision="cm-10.2" />
   <project path="vendor/lge" name="MoltenMotherBoard/platform_vendor_lge" remote="gh" revision="cm10.2" />
 
 </manifest>
