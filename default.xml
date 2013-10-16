@@ -55,7 +55,7 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
   <project path="external/dnsmasq" name="platform/external/dnsmasq"/>
   <project path="external/dropbear" name="platform/external/dropbear"/>
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="gh" revision="cm-10.2" />
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/expat" name="platform/external/expat"/>
   <project path="external/fdlibm" name="platform/external/fdlibm"/>
