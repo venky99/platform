@@ -40,6 +40,7 @@
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7"/>
   <project path="device/common" name="device/common"/>
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon"/>
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="b2g-4.3_r2.1"/>
   <project path="device/lge/p880" name="CyanogenMod/android_device_lge_p880" remote="gh" revision="cm-10.2" />
   <project path="device/sample" name="device/sample"/>
   <project path="abi/cpp" name="platform/abi/cpp"/>
