@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="phablet" fetch="git://phablet.ubuntu.com/CyanogenMod" />
+  <remote  name="phablet" fetch="git://phablet.ubuntu.com/" />
   <remote  name="gh" fetch="https://github.com/" />
   <default revision="refs/heads/phablet-saucy" remote="phablet" sync-c="true" sync-j="1" />
 
