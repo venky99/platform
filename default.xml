@@ -126,6 +126,6 @@
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/lge" name="MoltenMotherBoard/platform_vendor_lge" remote="gh" revision="cm10.2" />
-  <project path="vendor/huawei" name="Dazzozo/proprietary_vendor_huawei" remote="gh" revision="ubuntu"
+  <project path="vendor/huawei" name="Dazzozo/proprietary_vendor_huawei" remote="gh" revision="jellybean-mr2"
 
 </manifest>
