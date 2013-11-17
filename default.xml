@@ -99,7 +99,7 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="kernel/lge/p880" name="CyanogenMod/lge-kernel-p880" remote="gh" revision="cm-10.1" />
   <project path="kernel/huawei/u8815" name="Dazzozo/android_kernel_huawei_u8815" remote="gh" revision="ubuntu" />
-  <project path="libnativehelper" name="CyanogenMod/android_libnative_helper" />
+  <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" revision="refs/tags/android-4.2.2_r1" />
