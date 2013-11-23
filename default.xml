@@ -189,7 +189,7 @@
   <project path="system/core" name="CyanogenMod/android_system_core" remote="gh" revision="gingerbread" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="gingerbread" /> 
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="gh" revision="refs/tags/7.0.3" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="gh" revision="gingerbread" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="gingerbread" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="gingerbread" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
