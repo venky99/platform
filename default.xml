@@ -38,7 +38,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="MoltenMotherBoard/android_external_dhcpcd" remote="gh" revision="gingerbread" />
+  <project path="external/dhcpcd" name="MoltenMotherBoard/platform_external_dhcpcd" remote="gh" revision="gingerbread" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="gh" revision="gingerbread" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
